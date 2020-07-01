@@ -1,0 +1,146 @@
+body {
+    background-color: rgba(240, 239, 239, 0.897);
+    margin: auto;
+}
+
+#navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFF;
+    width: auto;
+    height: 56px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+#topNavBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+}
+
+#top-left-nav {
+    display: flex;
+    flex-direction: row;
+    width: 185px;
+    height: 56px;
+}
+
+#menu {
+    height: 24px;
+    width: 24px;
+    margin-top: 14px;
+    margin-right: 20px;    
+    margin-bottom: 2px;
+}
+
+#youtube-logo-container {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    width: 150px;
+
+}
+
+#youtube-logo {
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#premium-logo {
+    margin-top: 17px;
+    margin-left: 2px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#top-center-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+#searchBar {
+    min-width: 336px;
+    max-width: 564px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px 0 0 2px;
+    box-shadow: none;
+    font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+#searchButtonContainer {
+    margin-top: 16px;
+}
+
+#searchButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 16px;
+    width: 65px;
+    height: 28px;
+    background-color: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+}
+
+#searchIcon {
+    align-self: center;
+    height: 15px;
+    width: 15px;
+    color: rgba(214, 206, 206, 0.986)
+}
+
+
+#top-right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 56;
+}
+
+#createPost {
+    justify-self: start;
+    height: 24px;
+    width: 24px;
+    margin-right: 28px;
+}
+
+#googleApps {
+    height: 24px;
+    width: 24px;
+    margin-top: 2px;
+    margin-right: 28px;
+}
+
+#notifications {
+    margin-right: 28px;
+}
+
+#profilePicture {
+    border-radius: 100%;
+    float: right;
+    background-color: black;
+    height: 32px;
+    width: 32px;
+}
