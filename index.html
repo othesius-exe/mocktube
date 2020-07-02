@@ -29,7 +29,7 @@
                     <img id='createPost' src='images/icons8-video-call-50.png'/>
                         <a href=''><img id='googleApps' src='images/icons8-google-50.png'/></a>
                         <img id='notifications' src='images/icons8-bell-24.png' />
-                        <a id='userProfile'><div id='profilePicture'></div></a>
+                        <a id='userProfile'><div class='user-profile-picture' id='profilePicture'></div></a>
                     </div>
                 </nav>
             </div>
@@ -73,7 +73,32 @@
                                 <span id='show-more-link'>SHOW MORE</span>
                             </div>
                         </div>
-                        <div id='comment-container'>
+                        <div id='comment-section-container'>
+                            <div id='comment-form-container'>
+                                <div id='comment-form-header'>
+                                    <div id='comment-count'>100,000 Comments</div>
+                                    <div id='sort-by'>Sort By:</div>
+                                </div>
+                                <div id='comment-form-body'>
+                                    <div class='user-profile-picture' id='comment-section-profile-photo'></div>
+                                    <div id='comment-placeholder'>Leave a comment.</div>
+                                </div>
+                            </div>
+                            <div id='comment-container'>
+                                <div id='author-image'></div>
+                                <div id='comment-builder'>
+                                    <div id='comment-header'>
+                                        <div id='author-info'>Random YouTuber</div>
+                                        <div id='time-stamp'>3 Days ago</div>
+                                    </div>
+                                    <div id='comment-text-area'>This music is great!</div>
+                                    <div id='comment-feedback-area'>
+                                        <button class='comment-button' id='comment-like' value='comment-like'><img class='comment-icon' id='comment-like-icon' src='images/icons8-facebook-like-24.png'/></button>
+                                        <button class='comment-button' id='comment-dislike' value='comment-dislike'><img class='comment-icon' id='comment-dislike-icon' src='images/icons8-thumbs-down-32.png'></button>
+                                        <button class='comment-button' id='reply' value='comment-reply'>reply</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id='playlist-container'>
